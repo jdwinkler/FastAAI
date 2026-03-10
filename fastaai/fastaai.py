@@ -3860,8 +3860,8 @@ def single_query(qf, tf, output, verbose, threads, do_compress):
 	query = results[0]
 	target = results[1]
 	
-	print(query.partial_timings())
-	print(target.partial_timings())
+	# print(query.partial_timings())
+	# print(target.partial_timings())
 	
 	#One of the printouts
 	max_poss_prots = max(len(query.best_hits_kmers), len(target.best_hits_kmers))
