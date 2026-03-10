@@ -3379,7 +3379,7 @@ def assess_db(path):
 			curs.close()
 			conn.close()
 						
-			if len(tables) > 2 and "genome_index" in tables and "genome_acc_kmer_counts" in tables:		
+			if len(tables) >= 2 and "genome_index" in tables and "genome_acc_kmer_counts" in tables:
 				status = "exists"
 			else:
 				status = "wrong format"
