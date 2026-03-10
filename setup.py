@@ -16,9 +16,9 @@ setuptools.setup(
 	include_package_data=True,
 	python_requires='>=3',
 	install_requires=[
-		'numpy==2.2.2',
-		'pyrodigal==3.6.3',
-		'pyhmmer==0.11.0',
+		'numpy>=2.2.2',
+		'pyrodigal>=3.6.3',
+		'pyhmmer>=0.11.0',
 	],
 	entry_points={
 		"console_scripts": [
